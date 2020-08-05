@@ -10,3 +10,9 @@ spec:
     storage: 5Gi
   persistentVolumeReclaimPolicy: Recycle
   volumeMode: Filesystem
+  mountOptions:
+    - hard
+    - nfsvers=4.1
+  nfs:
+    path: /tmp
+    server: 172.17.0.2
