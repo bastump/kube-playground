@@ -19,7 +19,7 @@ spec:
     namespace: default
     name: velocity-mongo-mongodb
   nfs:
-    path: /tmp
+    path: /var/lib/nfsshare
     server: 192.168.1.80
   nodeAffinity:
     required:
