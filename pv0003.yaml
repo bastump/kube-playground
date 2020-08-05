@@ -20,7 +20,7 @@ spec:
     name: velocity-mongo-mongodb
   nfs:
     path: /tmp
-  #  server: 172.17.0.2
+    server: 192.168.1.80
   nodeAffinity:
     required:
       nodeSelectorTerms:
