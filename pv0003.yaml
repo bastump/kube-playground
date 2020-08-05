@@ -2,6 +2,11 @@ apiVersion: v1
 kind: PersistentVolume
 metadata:
   name: pv0003
+  labels: 
+    app: mongodb
+    chart: mongodb-7.8.10
+    heritage: Tiller
+    release: velocity-mongo
 spec:
   storageClassName: local-storage
   capacity:
