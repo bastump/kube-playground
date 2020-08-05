@@ -18,8 +18,8 @@ spec:
   claimRef:
     namespace: default
     name: velocity-mongo-mongodb
-  #nfs:
-  #  path: /tmp
+  nfs:
+    path: /tmp
   #  server: 172.17.0.2
   nodeAffinity:
     required:
