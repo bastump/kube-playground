@@ -8,9 +8,6 @@ metadata:
     heritage: Tiller
     release: velocity-mongo
 spec:
-  storageClassName: local-storage
-  capacity:
-    storage: 20Gi
   accessModes:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
