@@ -16,3 +16,11 @@ spec:
   nfs:
     path: /tmp
     server: 172.17.0.2
+  nodeAffinity:
+    required:
+      nodeSelectorTerms:
+      - matchExpressions:
+        - key: kubernetes.io/hostname
+          operator: In
+          values:
+          - ip-192-168-1-80.ec2.internal
