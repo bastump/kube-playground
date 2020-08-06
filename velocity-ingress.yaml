@@ -1,4 +1,4 @@
-kind: Ingress
+kind: Service
 apiVersion: networking.k8s.io/v1beta1
 metadata:
   name: velocity-ingress
