@@ -4,8 +4,14 @@ metadata:
   name: velocity-ingress
   namespace: default
   labels:
-    app.kubernetes.io/name: ingress-nginx
-    app.kubernetes.io/part-of: ingress-nginx
+    app: velocity
+    app.kubernetes.io/instance: accelerate-standard
+    app.kubernetes.io/managed-by: Tiller
+    app.kubernetes.io/name: velocity
+    chart: velocity-2.0.3
+    helm.sh/chart: velocity-2.0.3
+    heritage: Tiller
+    release: accelerate-standard
 spec:
   externalTrafficPolicy: Local
   type: LoadBalancer
