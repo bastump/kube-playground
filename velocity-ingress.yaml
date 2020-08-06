@@ -1,4 +1,4 @@
-kind: Service
+kind: Ingress
 apiVersion: v1
 metadata:
   name: velocity-ingress
