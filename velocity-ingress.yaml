@@ -15,6 +15,8 @@ metadata:
 spec:
   externalTrafficPolicy: Local
   type: LoadBalancer
+  externalIPs:
+  - 192.168.0.10
   selector:
     app.kubernetes.io/name: velocity
   ports:
